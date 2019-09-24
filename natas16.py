@@ -5,7 +5,7 @@ from requests.auth import HTTPBasicAuth
 
 all = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
 j = ''
-print(' Finding the password...')
+print('Finding the password...')
 
 while len(j) < 32:
     for i in all:
