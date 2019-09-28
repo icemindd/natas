@@ -3,7 +3,6 @@
 import requests
 from requests.auth import HTTPBasicAuth
 
-all = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
 data = {'admin':1, 'username': 'admin', 'password':'test'}
 
 print('Finding the password for natas20...')
